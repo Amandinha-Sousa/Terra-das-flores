@@ -4,51 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Flores</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="tralala.css" />
 </head>
 <body>
   <header>
     <h1>Terra das flores</h1>
-    <p>O significado de cada flor 🌸</p>
+    <p>O significado de cada flor</p>
   </header>
 
   <main>
     <section class="flores">
-      <article class="flor" data-nome="Rosa" data-info="São um símbolo de amor, beleza, paixão e carinho.Na antiguidade eram associadas a divindades e, mais recentemente, a sentimentos românticos e amizade. ">
+      <!-- Rosa -->
+      <article class="flor" data-nome="Rosa" data-info="São um símbolo de amor, beleza, paixão e carinho. Na antiguidade eram associadas a divindades e, mais recentemente, a sentimentos românticos e amizade.">
         <h2>Rosa</h2>
-        <button>Ver detalhes</button>
+        <img src="E:\Marcos flores\rosinha.jpg" width="100" height="100" alt="Imagem de uma Rosa" class="imagem-flor"> 
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Rosa" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
       </article>
 
-       <article class="flor" data-nome="Lirío" data-info="Os lírios são frequentemente associados à pureza, inocência, renovação e espiritualidade, e também podem representar a amizade, a felicidade e o amor.">
+      <!-- Lírio -->
+      <article class="flor" data-nome="Lirío" data-info="Os lírios são frequentemente associados à pureza, inocência, renovação e espiritualidade, e também podem representar a amizade, a felicidade e o amor.">
         <h2>Lirío</h2>
-        <button>Ver detalhes</button>
+        <img src="E:\Marcos flores\lirios.jpg" width="100" height="100" alt="Imagem de um Lírio" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Lírio" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
       </article>
 
-      <article class="flor" data-nome="Tulipas" data-info="simbolizam o amor perfeito, a beleza e a prosperidade.">
-        <h2>Tulipas</h2>
-        <button>Ver detalhes</button>
+      <!-- Violeta -->
+      <article class="flor" data-nome="Violeta" data-info="O significado da flor violeta é lealdade, mas algumas pessoas também consideram que as violetas representam a modéstia.">
+        <h2>Violeta</h2>
+        <img src="E:\Marcos flores\Violeta.webp" width="100" height="100" alt="Imagem de uma Violeta" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Violeta" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
       </article>
 
+      <!-- Margarida -->
+      <article class="flor" data-nome="Margaridas" data-info="A margarida branca, o tipo mais clássico, está relacionada à pureza, inocência e ao amor verdadeiro.">
+        <h2>Margarida</h2>
+        <img src="E:\Marcos flores\margarida.avif" width="100" height="100" alt="Imagem de uma Margarida" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Margaridas" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
+      </article>
+
+      <!-- Petúnia -->
+      <article class="flor" data-nome="Tulipas" data-info="A flor de petúnia é apreciada por se tratar de uma planta que remete transformação e a sabedoria.">
+        <h2>Petúnia</h2>
+        <img src="E:\Marcos flores\petunia.webp" width="100" height="100" alt="Imagem de Petúnia" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor petunia" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
+      </article>
+
+       <!-- Tulipa -->
+       <article class="flor" data-nome="Tulipas" data-info="Simbolizam o amor perfeito, a beleza e a prosperidade.">
+        <h2>Tulipa</h2>
+        <img src="E:\Marcos flores\tulipas.jpg" width="100" height="100" alt="Imagem de Tulipas" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Tulipas" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
+      </article>
+
+      <!-- Girassol -->
       <article class="flor" data-nome="Girassol" data-info="Os girassóis são símbolos de alegria, positividade, lealdade e força, representando a busca constante pela luz e pelo crescimento.">
         <h2>Girassol</h2>
-        <button>Ver detalhes</button>
+        <img src="E:\Marcos flores\girassol.jpg" width="100" height="100" alt="Imagem de um Girassol" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Girassol" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
       </article>
 
+      <!-- Orquídea -->
       <article class="flor" data-nome="Orquídea" data-info="As orquídeas são amplamente apreciadas por simbolizarem amor, beleza, luxo e elegância, sendo frequentemente usadas em decorações e presentes.">
         <h2>Orquídea</h2>
-        <button>Ver detalhes</button>
+        <img src="E:\Marcos flores\orquidea.jpg" width="100" height="100" alt="Imagem de uma Orquídea" class="imagem-flor">
+        <br>
+        <br>
+        <button aria-label="Ver detalhes da flor Orquídea" class="ver-detalhes" onclick="mostrarDetalhes(this)">Ver detalhes</button>
+        <p class="detalhes"></p>
       </article>
     </section>
-
-    <section id="detalhes" class="detalhes">
-      <h2>Detalhes da flor</h2>
-      <p id="infoFlor">Clique em "Ver detalhes" para saber mais.</p>
-    </section>
   </main>
-
+<br>
+<br>
   <footer>
     <p>© 2025 Cada flor tem seu valor</p>
   </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
