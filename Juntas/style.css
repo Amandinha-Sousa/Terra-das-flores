@@ -1,82 +1,103 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #eaf7ea;
-  color: #2e4d25;
-  margin: 0;
-  padding: 0 20px 40px;
-}
-
-header {
-  text-align: center;
-  margin: 30px 0;
-}
-
-h1 {
-  font-size: 2.8rem;
-  margin-bottom: 0.2em;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-.flores {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-
-.flor {
-  background: #ffd6d6;
-  border-radius: 10px;
-  padding: 20px;
-  width: 220px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(193, 39, 45, 0.2);
-}
-
-.flor h2 {
-  margin-bottom: 15px;
-}
-
-button {
-  background: #d32f2f;
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background: #9a2121;
-}
-
-#detalhes {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fce4ec;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(193, 39, 45, 0.15);
-}
-
-#detalhes h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 50px;
-  color: #b71c1c;
-  font-weight: 600;
-}
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #98f498;
+    color: #000000;
+    margin: 0;
+    padding: 0 20px 40px;
+  }
+  
+  header {
+    text-align: center;
+    margin: 40px 0 30px;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.2em;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  .flores {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .flor {
+    background: #f6f6f6;
+    border-radius: 12px;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(217, 227, 16, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .flor:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+  }
+  
+  .flor h2 {
+    margin-bottom: 15px;
+    color: #0b0a0a;
+    font-size: 1.5rem;
+  }
+  
+  button {
+    background: #f5f9f5;
+    border: none;
+    color: rgb(108, 0, 0);
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ff0000;
+  }
+  
+  #detalhes {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #02ff2c;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease;
+  }
+  
+  #detalhes h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #1df900;
+  }
+  
+  #infoFlor {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #5c0000;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #080101;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
